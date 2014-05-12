@@ -180,10 +180,7 @@ function pauseSound5() {
 
 
 $('#smiley-0').click(function() {
-  // find the id of this
-  // console.log(this);
-  //var id = parseInt($(this).attr('id').substring(7, 8)); // id = smiley0
-  // player0.play();  
+
   console.log("I'm clicked");
   playSound0();
    message0 = {bool: true};
@@ -194,10 +191,7 @@ $('#smiley-0').click(function() {
 
 
 $('#smiley-1').click(function() {
-  // find the id of this
-  // console.log(this);
-  //var id = parseInt($(this).attr('id').substring(7, 8)); // id = smiley0
-  // player0.play();  
+   
   console.log("I'm clicked");
   playSound1();
    message1 = {bool: true};
@@ -208,10 +202,7 @@ $('#smiley-1').click(function() {
 
 
 $('#smiley-2').click(function() {
-  // find the id of this
-  // console.log(this);
-  //var id = parseInt($(this).attr('id').substring(7, 8)); // id = smiley0
-  // player0.play();  
+ 
   console.log("I'm clicked");
   playSound2();
    message2 = {bool: true};
@@ -222,10 +213,7 @@ $('#smiley-2').click(function() {
 
 
 $('#smiley-3').click(function() {
-  // find the id of this
-  // console.log(this);
-  //var id = parseInt($(this).attr('id').substring(7, 8)); // id = smiley0
-  // player0.play();  
+ 
   console.log("I'm clicked");
   playSound3();
    message3 = {bool: true};
@@ -235,10 +223,7 @@ $('#smiley-3').click(function() {
 });
 
   $('#smiley-4').click(function() {
-  // find the id of this
-  // console.log(this);
-  //var id = parseInt($(this).attr('id').substring(7, 8)); // id = smiley0
-  // player0.play();  
+  
   console.log("I'm clicked");
   playSound4();
    message4 = {bool: true};
@@ -247,10 +232,6 @@ $('#smiley-3').click(function() {
 });
 
   $('#smiley-5').click(function() {
-  // find the id of this
-  // console.log(this);
-  //var id = parseInt($(this).attr('id').substring(7, 8)); // id = smiley0
-  // player0.play();  
   console.log("I'm clicked");
   playSound5();
    message5 = {bool: true};
