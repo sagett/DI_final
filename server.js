@@ -14,10 +14,13 @@ util.log("server running at port: " + port);
 
 var io = require("socket.io").listen(app);
 
+
+
 var onlineUser = [];
 
 // io.set('log level', 2); // showing only significant log such as handshaking and data transmission
 io.sockets.on('connection', function(socket) { // when a user, "socket" connects
+	console.log(socket);
 	onlineUser++;
 	socket.emit("bool", {
 
@@ -26,11 +29,9 @@ io.sockets.on('connection', function(socket) { // when a user, "socket" connects
 	util.log('number of user: ' + onlineUser);
 	
 	// listening to mouse position signal and transmit to every users
-	socket.on('ferret', function(socket) {
-		socket.on('ferret', function(name, fn) {
-			fn('woot');
-			util.log('received');
-		});
+	socket.on('my other event', function(data) {
+			console.log(data.my);
+	
 	});
 
 // when that user disconnects
