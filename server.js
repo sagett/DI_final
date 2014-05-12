@@ -52,18 +52,3 @@ io.sockets.on('connection', function(socket) { // when a user, "socket" connects
 
 
 
-
-// var message ={
-
-// 	bool: true,
-// 	player: : 
-// }
-
-
-//socket.emit("bool", message);
-
-
-function mauricio() {
-
-
-};
