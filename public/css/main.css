@@ -1,0 +1,83 @@
+body{
+	background-color: #000000;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+
+#gradient{
+	width: 100%;
+	height: 800px;
+	padding: 0px;
+	margin: 0px;
+	z-index: -50000;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+
+}
+
+#smiley-0{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	cursor: pointer;
+
+}
+
+
+#smiley-1{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	cursor: pointer;
+
+}
+
+
+#smiley-2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	cursor: pointer;
+
+
+}
+
+
+#smiley-3{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	cursor: pointer;
+
+
+}
+
+
+#smiley-4{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	cursor: pointer;
+
+
+}
+
+
+#smiley-5{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	cursor: pointer;
+
+}
+
+
