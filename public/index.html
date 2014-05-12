@@ -5,17 +5,14 @@
 	<script src="/socket.io/socket.io.js"></script>
 	<script>
 	var socket = io.connect('http://' + window.location.hostname + ':9000');
-	socket.emit('my other event', { my: 'data' });
+	//socket.emit('my other event', { my: 'data' });
+	socket.emit(‘buttonClicked’, {ID: 1})
 
 	socket.on('bool', function(data) {
 		console.log(data);
 		message1 = data;
 	});
 
-	
-	// 	for(var i=0; i<6; i++) {
-	// 	socket.emit('message'+[i], { });
-	// }
 	
 
 
