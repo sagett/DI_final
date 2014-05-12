@@ -2,24 +2,36 @@
 <html> 
 <head> 
 	<link rel="stylesheet" href="css/main.css">
+	<script src="/socket.io/socket.io.js"></script>
+	<script>
+	var socket = io.connect('http://' + window.location.hostname + ':9000');
+	socket.emit('my other event', { my: 'data' });
+
+	socket.on('bool', function(data) {
+		console.log(data);
+		message1 = data;
+	});
+
+	
+	// 	for(var i=0; i<6; i++) {
+	// 	socket.emit('message'+[i], { });
+	// }
+	
+
+
+	</script>
 </head>
 
 <body>
 <div id="gradient"> </div>
 <div class='sound-smiley'>
 <!-- <audio class='player_audio' src='music/Assassins.mp3'></audio> -->
-<audio class="player_audio-0" src="music/Assassins.mp3" type="audio/mpeg"></audio>
-<audio class="player_audio-1" src="music/Demolition.mp3" type="audio/mpeg"></audio>
-<audio class="player_audio-2" src="music/G-Member.mp3" type="audio/mpeg"></audio>
-<audio class="player_audio-3" src="music/SlavesToTheRave.mp3" type="audio/mpeg"></audio>
-<audio class="player_audio-4" src="music/StillWasted.mp3" type="audio/mpeg"></audio>
-<audio class="player_audio-5" src="music/WorldwideCrisis.mp3" type="audio/mpeg"></audio>
-
-
+<audio class="player_audio" src type="audio/mpeg">
+</audio>
 
  </div>
 
-<script src="/socket.io/socket.io.js"></script>
+
 <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 <script src="js/main.js"></script>
 
